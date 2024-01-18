@@ -26,7 +26,7 @@ function Paintsandcolors(){
 
 <div id='explore'>
         <div id='explore1'>
-        <h1> Explore Ideas </h1>
+        <h1> Explore Ideas </h1> 
         <p> Looking for wall decor ideas to refresh your space? Those empty walls are filled with possibilities - and a few additions can make a house feel like a home. If you're ready to turn those stark, bare walls into stylish centerpieces, keep reading. No matter your style, we've got the tricks that can amp up your walls and bring out your personality and taste. </p>
         <Button variant="contained"> VIEW ALL IDEAS </Button>
         </div>
