@@ -1,0 +1,353 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#input1{
+  width: 500px;
+  height: 30px;
+  margin-top: 35px;
+}
+#icons1{
+  width: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+#icon1{
+  font-size: 30px;
+  color: black;
+ 
+
+}
+#header{
+  display: flex;
+  width: 100;
+  height:75px;
+  color: black;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+#mercury{
+  padding-left: 80px;
+  margin-top: -8px;
+}
+#input2{
+  padding-left: 350px;
+  margin-top: -8px;
+}
+#drawer1{
+  transform: translateY(-16px);
+}
+#fontsizetext{
+  font-size: 15px;
+  color: black;
+  
+}
+#fontsizetext1{
+  text-decoration: none;
+}
+#image1{
+  width: 100%;
+  height: 450px;
+}
+#image2{
+  width: 60%;
+  padding-left: 50px;
+}
+#buttonCenter{
+  display: flex;
+  justify-content:space-around;
+}
+#colorCombination{
+  display: flex;
+}
+#getsee{
+  display: flex;
+  
+}
+#imageContent{
+  display: flex;
+  
+}
+#content1{
+  
+  transform: translateY(-150px);
+  margin-left: -280px;
+}
+#seeCombination{
+  padding-left: 50px;
+}
+#content2{
+  padding-left: 15px;
+  margin-top: -20px;
+}
+#readyMade{
+  padding-left: 15px;
+}
+#painthome{
+  padding-left: 15px;
+}
+#fourImages{
+  margin-top: 50px;
+  
+}
+#explore1{
+  width: 550px;
+}
+#explore{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#interior{
+  padding-left: 15px;
+}
+#pc1{
+  line-height: 10px;
+}
+#pc2{
+  display: flex;
+}
+#east{
+  padding-top: 65px;
+  padding-left: 40px;
+}
+#pc5{
+  display: flex;
+  justify-content: space-around;
+}
+#interior1{
+  margin-top: 150px;
+}
+#services1{
+  text-decoration: none;
+}
+#expert{
+  line-height: 6px;
+  text-align: center;
+}
+#whyasian{
+  text-align: center;
+  margin-top: 80px;
+}
+#home1{
+  padding-left: 20px;
+}
+#images{
+  width: 500px;
+}
+#images1{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 80px;
+}
+#images3{
+  
+  margin-top: 80px;
+}
+#shop{
+  text-align: center;
+  margin-top: 80px;
+}
+#shop1{
+  padding-left: 20px;
+}
+#launch{
+  font-size: 18px;
+  
+}
+#our{
+  margin-top: 50px;
+  margin-left: 15px;
+}
+#our1{
+  display: flex;
+  justify-content: space-around;
+}
+#onlineShop{
+  text-align: center;
+  margin-top: 100px;
+}
+#copyRight{
+  display: flex;
+  padding-left: 20px;
+}
+#copyRight1{
+  font-size: 18px;
+}
+#mercury3{
+  padding-left: 10px;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+  #mercury{
+    padding-left: 20px;
+    font-size: 12px;
+    color:black;
+  }
+}
+@media screen and (max-width: 414px) {
+  #input2{
+    display: none;
+  }
+}
+@media screen and (max-width: 414px) {
+  #icons1{
+    
+    margin-top: 5px;
+    transform: translateX(-5px);
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #drawer1{
+    margin-top: 17px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #header{
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #icon1{
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #image1{
+    width: 90%;
+    height: 300px;
+    padding-left: 18px;
+  }
+  
+}
+@media screen and (max-width: 414px) {
+   #image2{
+    display: none;
+   }
+  }
+  @media screen and (max-width: 414px) {
+    #content1{
+     display: none;
+    }
+   }
+   @media screen and (min-width: 414px) {
+    #content2{
+     display: none;
+    }
+   }
+   @media screen and (max-width: 414px) {
+    #header{
+      display: flex;
+  width: 100;
+  height:60px;
+  color: black;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding-left: 10px;
+  z-index: 1;
+  margin-top: -8px;
+    }
+   }
+   @media screen and (max-width: 414px) {
+    #painthome{
+     display: none;
+    }
+   }
+   @media screen and (min-width: 414px) {
+    #fourImages{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #image5{
+      border-radius: 5px;
+    }
+   }
+   @media screen and (max-width: 414px) {
+    #fourImages{
+      line-height: 50px;
+      text-align: center;
+    }
+    #image5{
+      border-radius: 5px;
+      width: 300px;
+    }
+   }
+   @media screen and (min-width: 414px) {
+    #accordion1{
+      width: 80%;
+      margin-left: 130px;
+    }
+    #accordion2{
+      margin-top: 100px;
+      
+    }
+   }
+   @media screen and (max-width: 414px) {
+    #accordion1{
+      width: 90%;
+     
+    }
+    #accordion2{
+      margin-top: 50px;
+      padding-left: 30px;
+    }
+   }
+  
+
+
