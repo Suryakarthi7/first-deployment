@@ -68,7 +68,7 @@ function Home(){
     
    <div id='content2'> 
   <div id='content2_one'>
-  <p> Will Light Blue Look Better With Pink? Will  </p>
+ <p> Will Light Blue Look Better With Pink? Will  </p>
   <p> Shades Of Green Win Compliments For My  </p>
   <p> Bedroom? Which Color Combinations Will Make </p>
   <p> My Living Room Look Spacious? </p>
