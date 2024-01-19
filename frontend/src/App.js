@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
 import { useEffect } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
 import Home from './home';
 import Paintsandcolors from './PaintsandColors';
 import React from 'react';
@@ -47,7 +47,7 @@ function App() {
    
    
 
-   <BrowserRouter>
+   <HashRouter>
 
    <div id='header'>
   
@@ -114,7 +114,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/shop' element={<Shop />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
 
    </>
